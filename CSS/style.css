@@ -1,0 +1,197 @@
+inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+.NavBar {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #C0C0C0;
+}
+
+.Linkedin-Icon {
+    position: absolute;
+    left: 1.32%;
+    right: 95.83%;
+    top: 19.06%;
+    bottom: 28.82%;
+
+    background: #12175C;
+}
+
+.Home-Icon {
+    position: absolute;
+    left: 48.61%;
+    right: 48.54%;
+    top: 21.13%;
+    bottom: 21.13%; 
+
+    background: #12175C;
+}
+
+header {
+    background-color: #c0c0c0;
+
+}
+ul {
+    width: 50% 
+    margin-left: auto;
+    text-align: center;
+}
+
+body {
+    background-color: #12175C;
+}
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  border: 3px solid #D4AF37;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #f7f7f7;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #D4AF37;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.BioBox {
+    position: absolute;
+    width: 1066px;
+    height: 255px;
+    left: 188px;
+    top: 926px;
+    
+    background: rgba(192, 192, 192, 0.9);
+    border: 3px solid #D4AF37;
+    box-sizing: border-box;
+}
+
+h1 {
+    position: absolute;
+    width: 886px;
+    height: 61px;
+    left: 278px;
+    top: 146px;
+
+    font-family: PT Serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 18px;
+    /* or 30% */
+
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+color: #F7F7F7; 
+}
+
+P {
+    position: absolute;
+    width: 446px;
+    height: 47px;
+    left: 497px;
+    top: 4453px;
+
+    font-family: PT Serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 18px;
+    /* or 75% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+
+    color: #12175C;
+}
+
+footer {
+    position: absolute;
+    width: 1440px;
+    height: 71px;
+    left: calc(50% - 1440px/2);
+    bottom: 0px;
+
+    background: #C0C0C0;
+}
