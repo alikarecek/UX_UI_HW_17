@@ -7,7 +7,9 @@ inline-block {
     padding: 1%;
 }
 .NavBar {
-    position: absolute;
+    width: 25%; 
+    margin-left: auto;
+    text-align: center;
     left: 0%;
     right: 0%;
     top: 0%;
@@ -41,7 +43,7 @@ header {
 
 }
 ul {
-    width: 50% 
+    width: 50%; 
     margin-left: auto;
     text-align: center;
 }
@@ -131,7 +133,7 @@ body {
 }
 
 .BioBox {
-    position: absolute;
+    position: relative;
     width: 1066px;
     height: 255px;
     left: 188px;
@@ -139,11 +141,11 @@ body {
     
     background: rgba(192, 192, 192, 0.9);
     border: 3px solid #D4AF37;
-    box-sizing: border-box;
-}
+    box-sizing: border-box; 
+} 
 
-h1 {
-    position: absolute;
+.header {
+    position: top, center;
     width: 886px;
     height: 61px;
     left: 278px;
@@ -154,17 +156,17 @@ h1 {
     font-weight: bold;
     font-size: 60px;
     line-height: 18px;
-    /* or 30% */
 
     text-align: center;
     letter-spacing: 0.08em;
     text-transform: uppercase;
 
     color: #F7F7F7; 
-}
+} 
 
 P {
-    position: absolute;
+    
+    position: relative;
     width: 446px;
     height: 47px;
     left: 497px;
@@ -175,7 +177,6 @@ P {
     font-weight: bold;
     font-size: 24px;
     line-height: 18px;
-    /* or 75% */
 
     display: flex;
     align-items: center;
@@ -184,10 +185,10 @@ P {
     text-transform: uppercase;
 
     color: #12175C;
-}
+} 
 
 footer {
-    position: absolute;
+    position: bottom;
     width: 1440px;
     height: 71px;
     left: calc(50% - 1440px/2);
